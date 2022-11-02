@@ -6,10 +6,16 @@ public class Zad2 {
     public static void main(String[] arg){
 
         Scanner scr = new Scanner(System.in);
+        System.out.println("Please enter a integer");
         int firstNumber = scr.nextInt();
+        System.out.println("Please enter a integer");
         int secondNumber = scr.nextInt();
+
+        System.out.println("Please enter a double");
         double thirdNumber = scr.nextDouble();
+        System.out.println("Please enter a double");
         double forthNumber = scr.nextDouble();
+
         int firstIntSum ;
         int secondIntSum;
         double firstDoubleSum;

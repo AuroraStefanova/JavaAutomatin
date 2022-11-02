@@ -6,11 +6,13 @@ public class Zad3 {
     public static void main(String[] arg){
 
         Scanner scr = new Scanner(System.in);
+        System.out.println("Please enter a integer");
         int firstNumber = scr.nextInt();
+        System.out.println("Please enter a integer");
         int secondNumber = scr.nextInt();
+        System.out.println("Please enter a integer");
         int thirdNum = scr.nextInt();
 
-        //1 == 2; 2 == 3 3 == 1
         int firstRetainNumber = firstNumber;
 
         firstNumber = secondNumber;

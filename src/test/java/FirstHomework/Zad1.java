@@ -7,9 +7,11 @@ public class Zad1 {
         System.out.println("Please enter two integer numbers: ");
 
         Scanner scr = new Scanner(System.in);
+        System.out.println("Please enter a integer");
         int firsNumber = scr.nextInt();
         System.out.println("First entered number is: " + firsNumber);
 
+        System.out.println("Please enter a integer");
         int secondNumber = scr.nextInt();
         System.out.println("Second entered number is: " + secondNumber);
 

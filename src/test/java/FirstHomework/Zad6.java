@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Zad6 {
     public static void main(String[] arg){
-        //swich case
+
         Scanner scr = new Scanner(System.in);
+        System.out.println("Please enter a integer to day of week");
         int dayNumber = scr.nextInt();
 
         switch (dayNumber){

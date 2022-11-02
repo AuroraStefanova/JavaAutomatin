@@ -7,8 +7,11 @@ public class Zad4 {
     public static void main(String[] arg){
 
         Scanner scr = new Scanner(System.in);
+        System.out.println("Please enter a integer");
         int numberWorkingHours = scr.nextInt();
+        System.out.println("Please enter a double number");
         double amountMoney = scr.nextDouble();
+        System.out.println("Please enter a bull True or False ");
         Boolean isWorkDay = scr.nextBoolean();
 
         //ako e po4iwen den ????????????
