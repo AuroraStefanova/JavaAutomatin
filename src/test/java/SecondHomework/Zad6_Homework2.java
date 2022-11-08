@@ -4,11 +4,11 @@ public class Zad6_Homework2 {
     public static void main(String[] arg) {
 
         int[] firstArray = {1, 2, 3};
-        int[] secondArray = {1, 4, 3};
-        //count is addet to check for sure are all elements is in the first if statement and to print for the end message
+        int[] secondArray = {1, 2, 3};
+        //count is added to check for sure are all elements is in the first if statement and to print for the end message
         int count = 0;
 
-        //if length are different theq are not equals
+        //if length are different they are not equals
         if(firstArray.length != secondArray.length){
             System.out.println("The array length is different and they are not equals!");
         }
