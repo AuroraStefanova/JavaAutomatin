@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +41,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Zad1">
+  <component name="RunManager" selected="Application.Zad1_Homework2">
     <configuration name="Zad1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad1" />
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FirstHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad1_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad1_Homework2" />
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SecondHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad2" />
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FirstHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad3" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
@@ -69,52 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad5" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FirstHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zad6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad6" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FirstHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zad7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad7" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FirstHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Zad1" />
-        <item itemvalue="Application.Zad7" />
-        <item itemvalue="Application.Zad6" />
-        <item itemvalue="Application.Zad5" />
+        <item itemvalue="Application.Zad1_Homework2" />
         <item itemvalue="Application.Zad4" />
+        <item itemvalue="Application.Zad3" />
+        <item itemvalue="Application.Zad2" />
+        <item itemvalue="Application.Zad1" />
       </list>
     </recent_temporary>
   </component>
@@ -129,17 +128,41 @@
       <option name="presentableId" value="Default" />
       <updated>1665472080847</updated>
     </task>
+    <task id="LOCAL-00001" summary="reworking homework">
+      <created>1667400572407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667400572407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reworking homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="reworking homework" />
   </component>
 </project>
