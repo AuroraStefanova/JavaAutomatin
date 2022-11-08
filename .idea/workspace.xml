@@ -43,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Zad4_Homework2">
+  <component name="RunManager" selected="Application.Zad5_Homework2">
     <configuration name="Zad1_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad1_Homework2" />
       <module name="JQALearn" />
@@ -83,19 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad4" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FirstHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Zad4_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad4_Homework2" />
       <module name="JQALearn" />
@@ -109,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zad5_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad5_Homework2" />
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SecondHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zad5_Homework2" />
         <item itemvalue="Application.Zad4_Homework2" />
         <item itemvalue="Application.Zad3_Homework2" />
         <item itemvalue="Application.Zad2_Homework2" />
         <item itemvalue="Application.Zad1_Homework2" />
-        <item itemvalue="Application.Zad4" />
       </list>
     </recent_temporary>
   </component>
