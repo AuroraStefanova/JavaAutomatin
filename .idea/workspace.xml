@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Zad1_Homework2">
-    <configuration name="Zad1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstHomework.Zad1" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FirstHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Zad2_Homework2">
     <configuration name="Zad1_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad1_Homework2" />
       <module name="JQALearn" />
@@ -74,6 +59,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FirstHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad2_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad2_Homework2" />
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SecondHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zad2_Homework2" />
         <item itemvalue="Application.Zad1_Homework2" />
         <item itemvalue="Application.Zad4" />
         <item itemvalue="Application.Zad3" />
         <item itemvalue="Application.Zad2" />
-        <item itemvalue="Application.Zad1" />
       </list>
     </recent_temporary>
   </component>
