@@ -14,8 +14,6 @@ public class Zad1_Homework2 {
 
         System.out.println("The sum from two numbers is: " + calculateTwoNumbers(firstNum, secondNum));
 
-        //calculateTwoNumbers(firstNum, secondNum);
-
     }
     //Method calculate two numbers
     static int calculateTwoNumbers(int first, int second){
