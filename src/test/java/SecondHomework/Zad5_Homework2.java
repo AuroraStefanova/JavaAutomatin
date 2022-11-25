@@ -22,8 +22,12 @@ public class Zad5_Homework2 {
         for (int j = 0; j < createdArray.length; j++){
             secondArray[j] = createdArray[j];
             System.out.println("Element is: " + secondArray[j]);
-
         }
     }
 }
+/*
+Задача 5
+Да се състави масив със следните стойности {10 12 1 8 4}.
+След създаването на масива да се копират стойностите в нов масив
+ */
 

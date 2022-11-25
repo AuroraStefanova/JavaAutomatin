@@ -3,7 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/CarPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/CarPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad1_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad1_Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad2_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad2_Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad3_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad3_Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad4_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad4_Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad5_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad5_Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad6_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad6_Homework2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +50,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaAutomationCorse" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -54,13 +68,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarPerson">
+  <component name="RunManager" selected="Application.ComputerPrices">
+    <configuration name="CallingAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyOOP.CallingAll" />
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPHomeworkThird.CarPerson" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOPHomeworkThird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerPrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkFourOOP.ComputerPrices" />
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkFourOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,39 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zad5_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad5_Homework2" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SecondHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zad6_Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondHomework.Zad6_Homework2" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SecondHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComputerPrices" />
+        <item itemvalue="Application.CallingAll" />
         <item itemvalue="Application.CarPerson" />
         <item itemvalue="Application.Zad2_Homework2" />
         <item itemvalue="Application.Zad1_Homework2" />
-        <item itemvalue="Application.Zad5_Homework2" />
-        <item itemvalue="Application.Zad6_Homework2" />
       </list>
     </recent_temporary>
   </component>
