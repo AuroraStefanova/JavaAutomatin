@@ -52,3 +52,8 @@ public class Zad2 {
         System.out.println("The sum from  cast to double forth num and the third num is " + secondDoubleSum);
     }
 }
+/*
+Задача 2:
+Въведете 4 различни числа от конзолата и разменте стойността им две по две. Нека числата бъдат от различен тип (int и duoble).
+Разпечатайте новите им стойности. Направете кастване (casting) конвертиране на числата веднъж от int to double и после от double to int и след всяко конвертиране изведете сумата им
+ */
