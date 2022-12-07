@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstHomework/Zad7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/CarPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOPHomeworkThird/CarPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad1_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad1_Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad2_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad2_Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad3_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad3_Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad4_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad4_Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad5_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad5_Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad6_Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondHomework/Zad6_Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyOOP/CallingAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyOOP/CallingAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyOOP/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyOOP/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyOOP/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyOOP/Person.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComputerPrices">
+  <component name="RunManager" selected="Application.CallingAll">
     <configuration name="CallingAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyOOP.CallingAll" />
       <module name="JQALearn" />
@@ -136,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComputerPrices" />
         <item itemvalue="Application.CallingAll" />
+        <item itemvalue="Application.ComputerPrices" />
         <item itemvalue="Application.CarPerson" />
         <item itemvalue="Application.Zad2_Homework2" />
         <item itemvalue="Application.Zad1_Homework2" />
@@ -191,6 +180,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reworking homework" />
     <option name="LAST_COMMIT_MESSAGE" value="reworking homework" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MyOOP/Person.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MyOOP/CallingAll.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JQALearn$Zad2_Homework2.ic" NAME="Zad2_Homework2 Coverage Results" MODIFIED="1668450997728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -23,6 +23,10 @@ public class Horse {
         this.price = price;
         this.groomed = groomed;
     }
+
+    public String toString(){
+        return this.name + " " + this.price + " " + this.groomed;
+    }
 }
 /*
 Person pesho = new Person(...) - check

@@ -9,12 +9,11 @@ public class CallingAll {
             peshoPetrov.earnMoney(20);
 
             Horse vihren = new Horse("Vihren", 15, false);
-            Horse toshkoAfrikanski = new Horse("Toshko Afrikanski", 15, false);
+//            Horse toshkoAfrikanski = new Horse("Toshko Afrikanski", 15, false);
 
             peshoPetrov.byHorse(vihren);
 
-            //peshoPetrov.addHorseToList(vihren);
-
+            peshoPetrov.addHorseToList(vihren);
             peshoPetrov.groomingHorse();
 
             peshoPetrov.showOf();
@@ -24,6 +23,7 @@ public class CallingAll {
             System.out.println("After seling horse");
 
             peshoPetrov.showOf();
+
 
         }
     }

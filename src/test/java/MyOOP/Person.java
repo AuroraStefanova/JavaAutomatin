@@ -15,17 +15,22 @@ public class Person {
 
     }
     void groomingHorse(){
-        horseList.get(0).horseGrooming();
+
+        horseList.get(0).groomed = true;
+        this.horseList.get(0).price += 10;
     }
 
     void sellHorse(){
         //premahni ot lista
         for (int i = 0; i <= horseList.size(); i++){
             //ако коня е грумиран
-            System.out.println();
+            System.out.println("Lets sell horse ");
+
             if(this.horseList.get(i).groomed == true){
                 horseList.remove(i);
+                this.money += 25;
             }
+
         }
     }
 
@@ -34,9 +39,11 @@ public class Person {
     }
     //method how person name, money and Horses
     void showOf(){
-        System.out.println("The person name is: " + this.name + " His earned money ara that sum: " + this.money + "The list of horses are: " );
+        System.out.println("The person name is: " + this.name + " His earned money ara that sum: " + this.money + " The list of horses are: " );
+
         for (int i = 0; i < this.horseList.size(); i++){
-            System.out.println(this.horseList.get(i));
+           // toString();
+            System.out.println(this.horseList.get(i).toString());
         }
     }
     void addHorseToList(Horse horse){
@@ -50,6 +57,16 @@ public class Person {
         //this.horseList = listOfHorses;
 
     }
+//    @Override
+//    public String toString(){
+//
+//        for (int i = 0; i< horseList.size(); i++){
+//
+//            String list = horseList.get(i).toString();
+//            System.out.println("String: " + list);
+//            return list;
+//        }
+//    }
 
 }
 /*
