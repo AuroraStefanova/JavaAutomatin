@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/AnimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/AnimalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/IAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/IAnimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -10,24 +10,24 @@ public class AnimalDemo {
         //dog
         System.out.println("Differences for the dog");
 
-        Dog.play(balkan);
-        Dog.bringStick();
-        Dog.makeSomeNoise(balkan);
+        balkan.play();
+        balkan.bringStick();
+        balkan.makeSomeNoise();
 
         //cat
         System.out.println("Differences for the cat");
 
-        Cat.play(murlio);
-        Cat.climb(murlio);
-        Cat.makeSomeNoise(murlio);
+        murlio.play();
+        murlio.climb();
+        murlio.makeSomeNoise();
 
         //bird
         System.out.println("Differences for the bird");
 
-        Bird.makeSomeNoise(colibri);
-        Bird.sing();
-        Bird.fly(colibri);
-        Bird.play(colibri);
+        colibri.makeSomeNoise();
+        colibri.sing();
+        colibri.fly();
+        colibri.play();
 
     }
 }

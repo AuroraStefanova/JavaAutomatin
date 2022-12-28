@@ -5,16 +5,18 @@ public class Bird extends Animal implements IAnimal {
     public Bird(int age, String breedType){
         super(age, breedType);
     }
-    public static void makeSomeNoise(Bird bird) {
+    @Override
+    public void makeSomeNoise() {
     System.out.println("Shhhhvi shviiii make a bird");
     }
-    public static void play(Bird bird){
+    @Override
+    public void play(){
     System.out.println("Bird swinging on the swing");
     }
-    public static void fly(Bird bird){
+    public void fly(){
     System.out.println("Bird fly to the nearest tree");
     }
-    public static void sing(){
+    public void sing(){
     System.out.println("curulik churulik");
     }
 
