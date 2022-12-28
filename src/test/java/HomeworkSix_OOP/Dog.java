@@ -19,3 +19,7 @@ public class Dog extends Animal implements IAnimal{
         System.out.println("Dog run and bring back the stick");
     }
 }
+/*
+Dog - bringStick()
+ */
+
