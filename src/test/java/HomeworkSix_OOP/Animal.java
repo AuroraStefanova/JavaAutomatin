@@ -9,7 +9,7 @@ public abstract class Animal {
          this.breadType = breadType;
 
      }
-    public static void play(){
-
+    public void play(){
+         System.out.println("All animal play different");
     }
 }

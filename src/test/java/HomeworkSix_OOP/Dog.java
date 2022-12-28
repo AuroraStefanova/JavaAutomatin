@@ -6,10 +6,12 @@ public class Dog extends Animal implements IAnimal{
         super(age, breedType);
         this.name = name;
     }
-    public static void makeSomeNoise(Dog dog){
+    @Override
+    public void makeSomeNoise(){
         System.out.println("The dog make noise Bay Bau and Grrrrrrrrrrrrr");
     }
-    public static void play(Dog dog){
+    @Override
+    public void play(){
         System.out.println("Dog can bring bow but not only");
         bringStick();
     }
