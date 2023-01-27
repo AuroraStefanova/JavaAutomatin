@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/IAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkSix_OOP/IAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaAutomationCorse" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RunManager" selected="Application.AnimalDemo">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;E:/JQALearn/selenium-java-4.0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.HomeworkEight">
     <configuration name="AnimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeworkSix_OOP.AnimalDemo" />
       <module name="JQALearn" />
@@ -73,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallingAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyOOP.CallingAll" />
+    <configuration name="HomeworkEight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumWebDrive.HomeworkEight" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyOOP.*" />
+          <option name="PATTERN" value="SeleniumWebDrive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerPrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkFourOOP.ComputerPrices" />
+    <configuration name="JustTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium.JustTry" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkFourOOP.*" />
+          <option name="PATTERN" value="Selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeworkEight" />
+        <item itemvalue="Application.JustTry" />
         <item itemvalue="Application.AnimalDemo" />
         <item itemvalue="Application.CallMain" />
         <item itemvalue="Application.TreadAnimal" />
-        <item itemvalue="Application.CallingAll" />
-        <item itemvalue="Application.ComputerPrices" />
       </list>
     </recent_temporary>
   </component>
