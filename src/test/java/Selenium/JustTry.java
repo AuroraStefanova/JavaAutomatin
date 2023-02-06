@@ -1,12 +1,20 @@
 package Selenium;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 public class JustTry {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","E:\\JQALearn\\chromedriver_win32\\chromedriver.exe");
+        WebDriver driver = null;
+        WebDriverManager.chromedriver().browserVersion("109.0.5414.120").setup();
+        System.setProperty("webdriver.chrome.driver", "E:\\JQALearn\\chromedriver_win32\\chromedriver.exe");
+        ChromeOptions options = new ChromeOptions();
+       // System.setProperty("webdriver.chrome.driver","E:\\JQALearn\\chromedriver_win32\\chromedriver.exe");
         //create chrome instance
-        ChromeDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
 
         // Remove cookie warning
