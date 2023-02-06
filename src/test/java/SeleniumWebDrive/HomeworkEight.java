@@ -3,7 +3,6 @@ package SeleniumWebDrive;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 public class HomeworkEight {
     public static void main(String[] args) {
 
@@ -15,6 +14,7 @@ public class HomeworkEight {
         driver.get("https://www.saucedemo.com/");
 
         //find elements
+
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
         driver.findElement(By.name("login-button")).click();
@@ -25,7 +25,6 @@ public class HomeworkEight {
 
         //close browser
         driver.close();
-
     }
 }
 /*

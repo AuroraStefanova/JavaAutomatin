@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7fa148e5-2827-44f6-9312-2d420a6fe092" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-4.0.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/JustTry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/JustTry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumWebDrive/HomeworkEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumWebDrive/HomeworkEight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -28,6 +33,18 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\auror\.m2\repository" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="C:\Users\auror\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2FylCzygs8HTS0JjZCj7kI1IysN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,19 +56,21 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;E:/JQALearn/selenium-java-4.0.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JQALearn/resources/junit-4.13.2.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeworkEight">
-    <configuration name="AnimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkSix_OOP.AnimalDemo" />
+  <component name="RunManager" selected="JUnit.JunitAssertionsClass.verifiedFields">
+    <configuration name="CallingAssertionClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkNine.CallingAssertionClass" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkSix_OOP.*" />
+          <option name="PATTERN" value="HomeworkNine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeworkFive_OOP.CallMain" />
+    <configuration name="JunitAssertionsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeworkNine.JunitAssertionsClass" />
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkFive_OOP.*" />
+          <option name="PATTERN" value="HomeworkNine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,52 +91,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkEight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumWebDrive.HomeworkEight" />
+    <configuration name="JunitAssertionsClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumWebDrive.*" />
+          <option name="PATTERN" value="HomeworkNine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkNine" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkNine.JunitAssertionsClass" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JustTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium.JustTry" />
+    <configuration name="JunitAssertionsClass.VerifiedFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium.*" />
+          <option name="PATTERN" value="HomeworkNine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkNine" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkNine.JunitAssertionsClass" />
+      <option name="METHOD_NAME" value="VerifiedFields" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreadAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HorseAndCows.TreadAnimal" />
+    <configuration name="JunitAssertionsClass.verifiedFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HorseAndCows.*" />
+          <option name="PATTERN" value="HomeworkNine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkNine" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkNine.JunitAssertionsClass" />
+      <option name="METHOD_NAME" value="verifiedFields" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeworkEight" />
-        <item itemvalue="Application.JustTry" />
-        <item itemvalue="Application.AnimalDemo" />
-        <item itemvalue="Application.CallMain" />
-        <item itemvalue="Application.TreadAnimal" />
+        <item itemvalue="JUnit.JunitAssertionsClass.verifiedFields" />
+        <item itemvalue="JUnit.JunitAssertionsClass" />
+        <item itemvalue="Application.JunitAssertionsClass" />
+        <item itemvalue="Application.CallingAssertionClass" />
+        <item itemvalue="JUnit.JunitAssertionsClass.VerifiedFields" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +203,10 @@
           <line>11</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchFieldError" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
