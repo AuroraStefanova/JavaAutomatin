@@ -1,5 +1,7 @@
 package HomeworkNine;
 
+import Homework10_PageObjectModels.HomePage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,31 +11,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 public class JunitAssertionsClass {
-
-
-     WebDriver driver;
+    static WebDriver driver;
 
     @BeforeClass
     public static void beforeClass(){
         System.out.println("This @BeforeClass will be executed once before the starts of all class");
 
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
     }
-
-    @Before
-    public void setDriver(){
-
-        System.out.println("This is @Before and set the drivers,method is executed before each test");
-
-        System.setProperty("webdriver.chrome.driver","E:\\JQALearn\\chromedriver_win32\\chromedriver.exe");
-
-    }
-
     @Test
     public void verifiedFields(){
 
         System.out.println("This is the @Test");
 
-        WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
 
         // find elements
@@ -67,18 +58,11 @@ public class JunitAssertionsClass {
 
         driver.findElement(By.className("shopping_cart_badge"));
 
-        driver.close();
-    }
-    @After
-    public void closeDriver(){
-
-        System.out.println("This is @After and close the browser,method is executed after each test");
-
     }
     @AfterClass
     public static void afterClass(){
 
         System.out.println("This @AfterClass will be executed once after all test have been completed");
-
+        driver.close();
     }
 }

@@ -8,13 +8,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class JustTry {
     public static void main(String[] args) {
-        WebDriver driver = null;
-        WebDriverManager.chromedriver().browserVersion("109.0.5414.120").setup();
-        System.setProperty("webdriver.chrome.driver", "E:\\JQALearn\\chromedriver_win32\\chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
+//        WebDriver driver = null;
+        WebDriverManager.chromedriver().setup();
+//        System.setProperty("webdriver.chrome.driver", "E:\\JQALearn\\chromedriver_win32\\chromedriver.exe");
+//        ChromeOptions options = new ChromeOptions();
        // System.setProperty("webdriver.chrome.driver","E:\\JQALearn\\chromedriver_win32\\chromedriver.exe");
         //create chrome instance
-        driver = new ChromeDriver();
+       ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
 
         // Remove cookie warning
@@ -27,7 +27,7 @@ public class JustTry {
         driver.findElement(By.id("checkout")).click();
 
 
-        //driver.close();
+        driver.close();
 
        // driver.findElement(By.xpath("//button[@title='Only allow essential cookies']")).click();
        // WebElement element = driver.findElement(By.xpath("//input[@name='email']"));
