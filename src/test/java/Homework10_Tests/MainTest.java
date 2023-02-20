@@ -1,9 +1,8 @@
 package Homework10_Tests;
 
 import Homework10_Helpers.BrowserFactory;
-import Homework10_PageObjectModels.HomePage;
-import Homework10_PageObjectModels.SecondPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import Homework10_PageObjectModels.LoginPage;
+import Homework10_PageObjectModels.ProductsPage;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -11,8 +10,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
@@ -32,7 +29,7 @@ public class MainTest {
 
         driver.get("https://www.saucedemo.com/");
 
-        HomePage homePage = new HomePage(driver);
+        LoginPage homePage = new LoginPage(driver);
 
         homePage.loginUser("standard_user", "secret_sauce");
 
@@ -40,7 +37,7 @@ public class MainTest {
         String actualUrl = driver.getCurrentUrl();
         Assert.assertEquals("https://www.saucedemo.com/inventory.html",actualUrl);
 
-        SecondPage secondPage = new SecondPage(driver);
+        ProductsPage secondPage = new ProductsPage(driver);
         secondPage.addElementToCart();
 
         // Validate and check element of the page are more than one
