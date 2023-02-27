@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33128d0a-3645-4238-a71b-ca53e8223a1e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/SecondPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/ProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JQALearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JQALearn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkNine/JunitAssertionsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkNine/JunitAssertionsClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +51,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JQAAcademy/JavaAutomation&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/JQAAcademy/JavaAutomation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RunAnythingCache">
@@ -65,20 +71,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTestHomework11.callingMainTest">
-    <configuration name="JustTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium.JustTry" />
-      <module name="JQALearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MainTestHomework11">
     <configuration name="JunitAssertionsClass.verifiedFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
@@ -105,6 +98,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="Homework10_Tests" />
       <option name="MAIN_CLASS_NAME" value="Homework10_Tests.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTestHomework11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JQALearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework11_MainTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework11_MainTest" />
+      <option name="MAIN_CLASS_NAME" value="Homework11_MainTest.MainTestHomework11" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTestHomework11" />
         <item itemvalue="JUnit.MainTestHomework11.callingMainTest" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.JunitAssertionsClass.verifiedFields" />
         <item itemvalue="JUnit.MainTest.callBrowsers" />
-        <item itemvalue="Application.JustTry" />
       </list>
     </recent_temporary>
   </component>
@@ -168,37 +176,37 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>44</line>
+          <line>45</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>56</line>
+          <line>57</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>39</line>
+          <line>40</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -213,7 +221,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>55</line>
+          <line>56</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
