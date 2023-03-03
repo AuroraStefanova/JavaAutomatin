@@ -42,7 +42,7 @@ public class MainTestHomework11 {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.loginUser("standard_user", "secret_sauce");
 
-        //Validate expected and actual with Assert.
+        //Validate expected and actual with Assert. vvvvvvvv
         String actualUrl = driver.getCurrentUrl();
         Assert.assertEquals("https://www.saucedemo.com/inventory.html",actualUrl);
 

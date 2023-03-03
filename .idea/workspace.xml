@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33128d0a-3645-4238-a71b-ca53e8223a1e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JQALearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JQALearn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/MyTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/MyTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework11_MainTest/MainTestHomework11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework11_MainTest/MainTestHomework11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +69,10 @@
       <command value="mvn install:install" />
       <command value="mvn clean" />
       <command value="mvn install" />
+      <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTestHomework11">
+  <component name="RunManager" selected="JUnit.RunnerExam">
     <configuration name="JunitAssertionsClass.verifiedFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
@@ -134,29 +135,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.callBrowsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunnerExam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JQALearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework10_Tests.*" />
+          <option name="PATTERN" value="Exam_Runer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework10_Tests" />
-      <option name="MAIN_CLASS_NAME" value="Homework10_Tests.MainTest" />
-      <option name="METHOD_NAME" value="callBrowsers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Exam_Runer" />
+      <option name="MAIN_CLASS_NAME" value="Exam_Runer.RunnerExam" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerExam" />
         <item itemvalue="JUnit.MainTestHomework11" />
         <item itemvalue="JUnit.MainTestHomework11.callingMainTest" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.JunitAssertionsClass.verifiedFields" />
-        <item itemvalue="JUnit.MainTest.callBrowsers" />
       </list>
     </recent_temporary>
   </component>
@@ -174,119 +174,185 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="14" />
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/ProductsPageExam.java</url>
+          <line>13</line>
+          <properties field="driver" class="Exam_PageObject.ProductsPageExam" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/ProductsPageExam.java</url>
+          <line>14</line>
+          <properties field="wait" class="Exam_PageObject.ProductsPageExam" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/ProductsPageExam.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/ProductsPageExam.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/ProductsPageExam.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
           <line>53</line>
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
           <line>57</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>40</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HomeworkNine/JunitAssertionsClass.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
+          <line>59</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HomeworkNine/JunitAssertionsClass.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_Tests/MainTest.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
+          <line>63</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework11_MainTest/MainTestHomework11.java</url>
-          <line>65</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
+          <line>64</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework11_MainTest/MainTestHomework11.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/LoginPageExam.java</url>
+          <line>16</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework11_MainTest/MainTestHomework11.java</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/LoginPageExam.java</url>
+          <line>17</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework11_MainTest/MainTestHomework11.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/LoginPageExam.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/LoginPageExam.java</url>
+          <line>21</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/LoginPageExam.java</url>
+          <line>22</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>16</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>17</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>20</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>21</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Homework10_PageObjectModels/Cart.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
+          <line>58</line>
+          <properties class="Exam_HookTest.HookTest" method="clickOnCartButton">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_HookTest/HookTest.java</url>
+          <line>62</line>
+          <properties class="Exam_HookTest.HookTest" method="verifiedAddingItemToCart">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/LoginPageExam.java</url>
+          <line>19</line>
+          <properties class="Exam_PageObject.LoginPageExam" method="addUserNameAndPassword">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/LoginPageExam.java</url>
+          <line>24</line>
+          <properties class="Exam_PageObject.LoginPageExam" method="clickLoginButton">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>19</line>
+          <properties class="Exam_PageObject.CartPageExam" method="checkAddToCart">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Exam_PageObject/CartPageExam.java</url>
+          <line>23</line>
+          <properties class="Exam_PageObject.CartPageExam" method="validateActualUrl">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>

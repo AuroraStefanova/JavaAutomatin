@@ -1,6 +1,5 @@
 Feature: Adding item to cart
 
-
 Scenario: Verification of adding item to cart
 
 Given Open the Chrome and launch the application
